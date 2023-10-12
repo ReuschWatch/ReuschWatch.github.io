@@ -53,11 +53,35 @@ header {
 }
 
 #imgrolex {
-  width:50%;
-  height:50%;
+  width:49%;
+  height:49%;
 }
 #imgrolex2 {
-  width:50%;
-  height:50%;
+  width:49%;
+  height:49%;
 }
 
+section::after{
+     content: "";
+  display: table;
+  clear: both;
+   }
+
+* {
+  box-sizing: border-box;
+}
+nav{
+  float: left;
+  width: 30%;
+  height: 600px;
+  background: #ccc;
+  padding: 20px;
+}
+
+article {
+  float:left;
+  padding:20px;
+  width:70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
